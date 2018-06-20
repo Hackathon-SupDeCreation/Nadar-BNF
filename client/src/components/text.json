@@ -1,0 +1,31 @@
+{
+    "a": "yeux",
+    "b": "cheveux",
+    "c": "physique",
+    "d": "taille",
+
+    "ar": "bleu",
+    "br": "brun",
+    "cr": "gros",
+    "dr": "1,70m",
+
+    "ab": "cheveux",
+    "ac": "physique",
+    "ad": "taille",
+
+    "abr": "brun",
+    "acr": "gros",
+    "adr": "1.70m",
+
+    "abc": "physique",
+    "abd": "taille",
+
+    "abcr": "gros",
+    "abdr": "1.70m",
+
+    "abcd": "taille",
+
+    "abcdr": "1.70m"
+
+   
+  }
