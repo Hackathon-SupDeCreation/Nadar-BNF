@@ -1,5 +1,5 @@
 const express = require('express')
-const database = require('./src/database.js')
+// const database = require('./src/database.js')
 
 // MIDDLEWARES
 
