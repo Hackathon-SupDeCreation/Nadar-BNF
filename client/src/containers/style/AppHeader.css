@@ -1,0 +1,19 @@
+.app-header {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+}
+
+.app-header :first-child {
+  width: 50%;
+  height: 100%;
+  background: gray;
+  text-align: center;
+}
+
+.app-header :last-child {
+  width: 50%;
+  height: 100%;
+  background: darkgrey;
+  text-align: center;
+}
