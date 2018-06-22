@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './style/AppHeader.css'
-import BlocNav from '../components/BlocNav.js'
-import nav1 from '../img/nav1.png'
-import nav2 from '../img/nav2.png'
-import top from '../img/top.png'
+// import BlocNav from '../components/BlocNav.js'
+// import nav1 from '../img/nav1.png'
+// import nav2 from '../img/nav2.png'
+// import top from '../img/top.png'
 
 class AppHeader extends Component {
   render() {

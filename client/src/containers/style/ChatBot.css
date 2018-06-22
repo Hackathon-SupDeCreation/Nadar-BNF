@@ -9,6 +9,20 @@
     
 }
 
+.ButtonContainerPreGame {
+    position: fixed;
+    width: 100vw;
+    bottom: 8vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    left: 0;
+right: 0;
+background-color: #7d7575;
+    text-align: center;
+    justify-content: center;
+    
+}
+
 .ChatContainerNadar {
     border: 2px solid grey;
     padding: 8px;

@@ -57,9 +57,9 @@ class ChatBot extends Component {
         this.setState({disabledButton4: true, Chat4: true})
     }
 
-LetsPlay = () => {
-    this.setState({beforeGame: false})
-}
+    LetsPlay = () => {
+        this.setState({beforeGame: false})
+    }
 
     BeforeView = () => {
         if (this.state.render === false) {
@@ -279,21 +279,41 @@ LetsPlay = () => {
                     </div>
                 </div>
             )
-        } else if (this.state.beforeGame === false) {{
+        } else if (this.state.beforeGame === false) {
             return <div id="blankdiv">
                 <div className="ChatContainer">
                     <div className="Start">
-                        <p className="ChatContainerNadar">Hello Diane, es-tu pretes a lancer l'adventure du Qui Est-ce?</p>
-                    </div><this.BeforeView/></div>
+                        <p className="ChatContainerNadar">Hello Diane, es-tu pretes lancer l'adventure du Qui Est-ce?</p>
+                    </div>
+                    <this.BeforeView/>
+                </div>
             </div>
-        }}
-        else {return <div id="blankdiv">
-<div className="ButtonContainer">
-        <button
-             className="ChatButton"
-             onClick={this.LetsPlay}>Jouer</button>
-            </div>
-        </div>}
+        } else {
+            return (
+                <div id="blankdiv">
+
+                    <div className="ChatContainer">
+                        <div className="Start">
+                            <p className="ChatContainerNadar">Bonjour, je suis Nadar, il y a 150 ans j'avais
+                                trois personalitees, maintenante revis grace l'IA #iRobot</p>
+                        </div>
+                        <div className="Start">
+                            <p className="ChatContainerNadar">Ma raison d'etre: te fournir des infos
+                                pratiques sur l'expo , des anecdotes sur Nadar des #Anecdar et te concoter des
+                                petis jeux ludiques pour te faire remporter des lots</p>
+                        </div>
+                    </div>
+                    <div className="ButtonContainerPreGame">
+                        <button className="ChatButton">Oui</button>
+                    </div>
+
+                    <div className="ButtonContainer">
+
+                        <button className="ChatButton" onClick={this.LetsPlay}>Jouer</button>
+                    </div>
+                </div>
+            )
+        }
     }
 
     render() {
