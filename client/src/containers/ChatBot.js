@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import './style/ChatBot.css'
 
 class ChatBot extends Component {
+  
     constructor(props) {
         super(props);
         this.state = {
@@ -166,6 +167,7 @@ class ChatBot extends Component {
                 <div></div>
             )
         }
+
   }
 
     Chat1 = () => {

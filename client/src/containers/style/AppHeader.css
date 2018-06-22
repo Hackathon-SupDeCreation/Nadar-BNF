@@ -1,19 +1,21 @@
 .app-header {
   width: 100vw;
-  height: 20vh;
+  height: 24vh;
   display: flex;
+  background-image: url('../../img/top.png');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.app-header :first-child {
+.nav1 {
   width: 50%;
   height: 100%;
-  background: gray;
-  text-align: center;
+  color: black;
 }
 
-.app-header :last-child {
+.nav2 {
   width: 50%;
   height: 100%;
-  background: darkgrey;
-  text-align: center;
+  color: white;
 }
