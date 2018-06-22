@@ -101,9 +101,9 @@ class ChatBot extends Component {
                             onClick={this.Disabled4}>Anecdote</button>
 
                         <div>
-                            <form>
+                            <form className="text">
                                 <label>
-                                    <input type="text" name="Reponse"/>
+                                Votre reponse:   <input type="text" name="Reponse"/><input className="border" type="submit" value="Valider" />
                                 </label>
 
                             </form>

@@ -1,3 +1,8 @@
+.text {color: white;}
+
+.border {border: 1px solid white;
+    margin-left: 8px
+}
 
 
 .ChatContainer {
