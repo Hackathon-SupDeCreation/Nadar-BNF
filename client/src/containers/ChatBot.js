@@ -12,7 +12,7 @@ class ChatBot extends Component {
             disabledButton1: false,
             disabledButton2: false,
             disabledButton3: false,
-            disabledButton4: false,
+            disabledButton4: true,
             Chat1: false,
             Chat2: false,
             Chat3: false,
@@ -21,7 +21,10 @@ class ChatBot extends Component {
             Chat6: false,
             // Chat7: false,
         };
+
+        
     }
+
 
     BeforeButton1 = () => {
 
@@ -58,9 +61,9 @@ class ChatBot extends Component {
     BeforeView = () => {
         if (this.state.BeforeButton1 === false) {
             return (
-                <div>
-                    <button onClick={this.BeforeButton1}>Oui</button>
-                    <button onClick={this.BeforeButton2}>Non</button>
+                <div className="ButtonContainer">
+                    <button className="ChatButton" onClick={this.BeforeButton1}>Oui</button>
+                    <button className="ChatButton" onClick={this.BeforeButton2}>Non</button>
                 </div>
             )
         } else {
@@ -75,36 +78,47 @@ class ChatBot extends Component {
             return <div></div>
         } else {
             return (
-
+<div>
+                <div className="ButtonContainer">
+                    <button className="ChatButton" disabled={this.state.disabledButton1} onClick={this.Disabled1}>H ou F</button>
+                    <button className="ChatButton" disabled={this.state.disabledButton2} onClick={this.Disabled2}>Profession</button>
+                    <button className="ChatButton" disabled={this.state.disabledButton3} onClick={this.Disabled3}>Date</button>
+                    <button className="ChatButton" disabled={this.state.disabledButton4} onClick={this.Disabled4}>Anecdote</button>
+                
                 <div>
-                    <button disabled={this.state.disabledButton1} onClick={this.Disabled1}>d1</button>
-                    <button disabled={this.state.disabledButton2} onClick={this.Disabled2}>d2</button>
-                    <button disabled={this.state.disabledButton3} onClick={this.Disabled3}>d3</button>
-                    <button disabled={this.state.disabledButton4} onClick={this.Disabled4}>d4</button>
-                </div>
+                <form>
+                <label>
+            <input type="text" name="Reponse" />
+          </label>
+          
+                  </form>
+                  </div>
+                  </div>
+                  </div>
 
             );
         }
     }
+
+    scrollToBottom = () => {
+      var elmnt = document.getElementById("blankdiv");
+      elmnt.scrollIntoView();
+    }
+    
+    componentDidMount() {
+      this.scrollToBottom();
+    }
+    
+    componentDidUpdate() {
+      this.scrollToBottom();
+    }
+
     Handle = (event) => {
       event.preventDefault()
       this.setState({Chat3: true})
       
     }
-    Text = () => {
-      if (this.state.playing === true) {return (<div>
-        <form>
-        <label>
-    Reponse:
-    <input type="text" name="Reponse" />
-    <button onClick="Handle" type="button"></button>
-  </label>
   
-          </form>
-          </div>)
-      } else {return <div></div>}
-    }
-
     marginer1 = {
       marginLeft: '61%'
     }
@@ -121,6 +135,13 @@ class ChatBot extends Component {
       marginLeft: '50%'
     }
     
+    marginer5 = {
+      marginRight: '43%'
+    }
+
+    marginer6 = {
+      marginRight: '45%'
+    }
 
     Chat0 = () => {
         if (this.state.BeforeButton1 === true) {
@@ -156,7 +177,7 @@ class ChatBot extends Component {
                     </p>
                 </div>
                  <div className='Left'>
-                 <p className="ChatContainerNadar">Oui, c'est une femme.
+                 <p className="ChatContainerNadar" style={this.marginer5}>Oui, c'est une femme.
                  </p>
              </div>
              </div>
@@ -178,7 +199,7 @@ class ChatBot extends Component {
                 </p>
             </div>
              <div className='Left'>
-             <p className="ChatContainerNadar">C'est une danseuse!
+             <p className="ChatContainerNadar" style={this.marginer6}>C'est une danseuse!
              </p>
          </div>
          </div>
@@ -211,7 +232,6 @@ class ChatBot extends Component {
              <p className="ChatContainerNadar">Petite Description du type.jpeg
              </p>
          </div>
-         
          </div>
             
         )
@@ -228,14 +248,18 @@ class ChatBot extends Component {
                 <div className="Start">
                     <p className="ChatContainerNadar">Hello Diane, es-tu pretes a lancer l'adventure du Qui Est-ce?</p>
                 </div>
+                <div>
                 <this.Chat0/>
                 <this.Chat1/>
                 <this.Chat2/>
                 <this.Chat3/>
+                <div id="blankdiv" className="Blank"></div>
+                
                 <this.BeforeView/>
                 <this.View/>
-                <this.Text/>
+                </div>
             </div>
+            
         )
     }
 }

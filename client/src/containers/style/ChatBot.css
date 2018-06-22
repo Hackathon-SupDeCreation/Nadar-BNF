@@ -1,11 +1,14 @@
 .ChatContainer {
     margin-top: 0;
-    margin: 5%
+    margin: 5%;
+    height:90%;
+    overflow: scroll;
 }
 
 .ChatContainerNadar {
     border: 2px solid grey;
     padding: 10px;
+    margin-top: -4px;
     border-radius: 20px;
     color: white;
     background-color: #232323a9
@@ -14,10 +17,16 @@
 .ChatContainerUser {
     border: 2px solid #e44d56;
     padding: 10px;
+    margin-top: -4px;
     margin-left: auto;
     border-radius: 20px;
     color: white;
     background-color:   #e73e49
+}
+
+.Body {
+    width: 100vw;
+    height: 76vh
 }
 
 
@@ -32,4 +41,37 @@
 }
 
 .Start {padding-right: 15%;}
+
+.ChatButton {
+
+    border: 6px solid black;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    width: 22%;
+    font-size: 0.9em;
+    text-align: center;
+    
+
+}
+
+.ButtonContainer {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    left: 0;
+right: 0;
+background-color: grey;
+
+/* margin-right: 100px; */
+    text-align: center;
+    justify-content: center;
+
+}
+
+.Blank {
+    margin: 7vh
+}
 

@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
-import ChatBot from './ChatBot.js'
-import PlayBtn from '../components/PlayBtn.js'
-import './style/BotPart.css'
+// import React, { Component } from 'react'
+// import ChatBot from './ChatBot.js'
+// import PlayBtn from '../components/PlayBtn.js'
+// import './style/BotPart.css'
 
-class BotPart extends Component {
-  render() {
-    return (
-      <div className='bot-part'>
-        <ChatBot />
-        <PlayBtn text='Jouer'/>
-      </div>
-    )
-  }
-}
+// class BotPart extends Component {
+//   render() {
+//     return (
+//       <div className='bot-part'>
+//         <ChatBot />
+//         {/* <PlayBtn text='Jouer'/> */}
+//       </div>
+//     )
+//   }
+// }
 
-export default BotPart
+// export default BotPart
