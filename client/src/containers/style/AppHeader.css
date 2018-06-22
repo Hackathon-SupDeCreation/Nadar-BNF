@@ -2,9 +2,9 @@
   width: 100vw;
   height: 24vh;
   display: flex;
-  background-image: url('../../img/top.png');
-  background-repeat: repeat;
+  background-image: url('../../img/top2.png');
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 

@@ -1,19 +1,16 @@
 
-.nav3 {
-
-  color:red;
-}
-
 .ChatContainer {
     margin-top: 0;
-    margin: 5%;
+    padding: 5%;
     height:90%;
     overflow: scroll;
+    background-color: #342626
+    
 }
 
 .ChatContainerNadar {
     border: 2px solid grey;
-    padding: 10px;
+    padding: 8px;
     margin-top: -4px;
     border-radius: 20px;
     color: white;
@@ -22,7 +19,7 @@
 
 .ChatContainerUser {
     border: 2px solid #e44d56;
-    padding: 10px;
+    padding: 8px;
     margin-top: -4px;
     margin-left: auto;
     border-radius: 20px;
@@ -30,9 +27,11 @@
     background-color:   #e73e49
 }
 
+
 .Body {
     width: 100vw;
-    height: 76vh
+    height: 75vh;
+    background-color: #342626
 }
 
 
@@ -70,14 +69,13 @@
     left: 0;
 right: 0;
 background-color: grey;
-
-/* margin-right: 100px; */
     text-align: center;
     justify-content: center;
 
 }
 
 .Blank {
-    margin: 7vh
+    margin: 8vh;
+    background-color: #342626
 }
 

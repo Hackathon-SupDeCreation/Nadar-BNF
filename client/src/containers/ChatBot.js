@@ -255,10 +255,9 @@ class ChatBot extends Component {
                 <this.Chat1/>
                 <this.Chat2/>
                 <this.Chat3/>
-                <div id="blankdiv" className="Blank"></div>
-                
                 <this.BeforeView/>
                 <this.View/>
+                <div id="blankdiv" className="Blank"></div>
                 </div>
             </div>
             
