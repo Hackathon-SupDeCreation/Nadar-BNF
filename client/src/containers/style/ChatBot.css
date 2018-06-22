@@ -1,0 +1,35 @@
+.ChatContainer {
+    margin-top: 0;
+    margin: 5%
+}
+
+.ChatContainerNadar {
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #232323a9
+}
+
+.ChatContainerUser {
+    border: 2px solid #e44d56;
+    padding: 10px;
+    margin-left: auto;
+    border-radius: 20px;
+    color: white;
+    background-color:   #e73e49
+}
+
+
+.Right {
+    text-align: right;
+
+}
+
+.Left {
+    padding-right: 15%;
+    text-align: left;
+}
+
+.Start {padding-right: 15%;}
+
