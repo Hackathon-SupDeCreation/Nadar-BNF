@@ -7,7 +7,7 @@ class BotPart extends Component {
   render() {
     return (
       <div className='bot-part'>
-        <ChatBot />
+         <ChatBot />
         <PlayBtn text='Jouer'/>
       </div>
     )

@@ -4,8 +4,8 @@ import './style/ChatBot.css'
 class ChatBot extends Component {
   render() {
     return (
-      <div>
-      hdjshdjsqjkdq
+      <div className='nav3' >
+      test
       </div>
     )
   }
