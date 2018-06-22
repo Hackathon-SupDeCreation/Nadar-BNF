@@ -169,8 +169,8 @@ class ChatBot extends Component {
                         <p className="ChatContainerNadar">Tu remporteras 3 fois plus de point si tu es bon ;)</p>
                     </div>
                     <div className='Left'>
-                        <p className="ChatContainerNadar">J'ai choisis une personne present dans un
-                            portrait dans mon exposition, maintenant c'est a toi de le deviner en me posant
+                        <p className="ChatContainerNadar">J'ai choisi une personne présente dans un
+                            portrait de mon exposition, maintenant c'est à toi de le deviner en me posant
                             des questions et en cherchant dans la galerie!
                         </p>
                     </div>
@@ -238,7 +238,7 @@ class ChatBot extends Component {
                         </p>
                     </div>
                     <div className='Left'>
-                        <p className="ChatContainerNadar">Bonne reponse! Tu es tres perspicace! :)
+                        <p className="ChatContainerNadar">Bonne reponse! Tu es très perspicace! :)
                         </p>
                     </div>
                     <div className='Left'>
@@ -267,7 +267,7 @@ class ChatBot extends Component {
             return (
                 <div className="ChatContainer">
                     <div className="Start">
-                        <p className="ChatContainerNadar">Hello Diane, es-tu pretes a lancer l'adventure du Qui Est-ce?</p>
+                        <p className="ChatContainerNadar">Hello Diane, es-tu prêtes à lancer l'adventure du Qui Est-ce?</p>
                     </div>
                     <div>
                         <this.Chat0/>
@@ -283,7 +283,7 @@ class ChatBot extends Component {
             return <div id="blankdiv">
                 <div className="ChatContainer">
                     <div className="Start">
-                        <p className="ChatContainerNadar">Hello Diane, es-tu pretes lancer l'adventure du Qui Est-ce?</p>
+                        <p className="ChatContainerNadar">Hello Diane, es-tu prêtes lancer l'adventure du Qui Est-ce?</p>
                     </div>
                     <this.BeforeView/>
                 </div>
@@ -295,12 +295,12 @@ class ChatBot extends Component {
                     <div className="ChatContainer">
                         <div className="Start">
                             <p className="ChatContainerNadar">Bonjour, je suis Nadar, il y a 150 ans j'avais
-                                trois personalitees, maintenante revis grace l'IA #iRobot</p>
+                                trois personalitées, maintenant revis grace l'IA #iRobot</p>
                         </div>
                         <div className="Start">
-                            <p className="ChatContainerNadar">Ma raison d'etre: te fournir des infos
-                                pratiques sur l'expo , des anecdotes sur Nadar des #Anecdar et te concoter des
-                                petis jeux ludiques pour te faire remporter des lots</p>
+                            <p className="ChatContainerNadar">Ma raison d'être : te fournir des infos
+                                pratiques sur l'expo , des anecdotes sur Nadar des #Anecdar et te concocter des
+                                petits jeux ludiques pour te faire remporter des lots</p>
                         </div>
                     </div>
                     <div className="ButtonContainerPreGame">
