@@ -1,0 +1,21 @@
+.app-header {
+  width: 100vw;
+  height: 24vh;
+  display: flex;
+  background-image: url('../../img/top2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav1 {
+  width: 50%;
+  height: 100%;
+  color: black;
+}
+
+.nav2 {
+  width: 50%;
+  height: 100%;
+  color: white;
+}

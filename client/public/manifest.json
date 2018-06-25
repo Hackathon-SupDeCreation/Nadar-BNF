@@ -1,0 +1,16 @@
+{
+  "short_name": "Nadar Expo",
+  "name": "Les Nadar Expo",
+  "icons": [
+    {
+      "src": "../src/img/darker.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff"
+  
+ 
+}
